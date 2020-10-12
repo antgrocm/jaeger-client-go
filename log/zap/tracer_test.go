@@ -25,8 +25,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/log/zap/mock_opentracing"
+	"github.com/antgrocm/jaeger-client-go"
+	"github.com/antgrocm/jaeger-client-go/log/zap/mock_opentracing"
 )
 
 func TestTracerDelegation(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/uber/jaeger-client-go/log"
+	"github.com/antgrocm/jaeger-client-go/log"
 )
 
 type mockResolver struct {

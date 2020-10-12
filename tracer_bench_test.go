@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/uber/jaeger-client-go/thrift-gen/sampling"
+	"github.com/antgrocm/jaeger-client-go/thrift-gen/sampling"
 
 	"github.com/opentracing/opentracing-go"
 )

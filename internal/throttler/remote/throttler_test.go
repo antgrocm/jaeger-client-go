@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/internal/throttler"
-	"github.com/uber/jaeger-client-go/log"
+	"github.com/antgrocm/jaeger-client-go"
+	"github.com/antgrocm/jaeger-client-go/internal/throttler"
+	"github.com/antgrocm/jaeger-client-go/log"
 	"github.com/uber/jaeger-lib/metrics/metricstest"
 )
 

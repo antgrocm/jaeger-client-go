@@ -22,13 +22,13 @@ import (
 	"time"
 
 	"github.com/opentracing/opentracing-go"
-	"github.com/uber/jaeger-client-go/utils"
+	"github.com/antgrocm/jaeger-client-go/utils"
 
-	"github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/internal/baggage/remote"
-	throttler "github.com/uber/jaeger-client-go/internal/throttler/remote"
-	"github.com/uber/jaeger-client-go/rpcmetrics"
-	"github.com/uber/jaeger-client-go/transport"
+	"github.com/antgrocm/jaeger-client-go"
+	"github.com/antgrocm/jaeger-client-go/internal/baggage/remote"
+	throttler "github.com/antgrocm/jaeger-client-go/internal/throttler/remote"
+	"github.com/antgrocm/jaeger-client-go/rpcmetrics"
+	"github.com/antgrocm/jaeger-client-go/transport"
 	"github.com/uber/jaeger-lib/metrics"
 )
 

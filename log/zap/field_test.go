@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	jaeger "github.com/uber/jaeger-client-go"
+	jaeger "github.com/antgrocm/jaeger-client-go"
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
